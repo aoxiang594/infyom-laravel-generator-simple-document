@@ -104,7 +104,7 @@ Generating autoload files
 
 
 
-# 方式二:基于配置文件生成
+### 方式二:基于配置文件生成
 在`config\infyom\laravel_genertor.php`中有一个`schema_files`参数，定义了schema配置文件存放位置，一般都在`resources/model_schemas/`
 在这个文件夹里新增一个`PostSchema.json`的文件。配置内容稍后讲解。
 配置完成以后，执行命令
